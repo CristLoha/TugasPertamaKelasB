@@ -57,3 +57,12 @@ a:visited {
 a:hover {
     color: #3252DF;
   }
+
+  main .cShowDesc {
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+}
