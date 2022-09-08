@@ -74,7 +74,7 @@ a:hover {
 .cSubDesc p{
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
-    font-weight:50;
+    font-weight:300;
     line-height: 170%;
     color: #B0B0B0;
 }
@@ -109,6 +109,19 @@ margin-left: 150px;
 margin-right: 50px;
 width: 559px;
 height: 450px;
+
+}
+
+.listIcon span{
+    color: #152C5B;
+    font-family: 'Poppins', sans-serif;
+    font-weight:500;
+}
+
+.listIcon p{
+  color: #B0B0B0;
+  font-family: 'Poppins', sans-serif;
+  font-weight:300;
 
 }
 
