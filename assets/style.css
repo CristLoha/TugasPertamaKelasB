@@ -6,8 +6,8 @@ body{
 
 .cStay {
     display: flex;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
     justify-content: space-between;
     align-items: center;
     border-bottom: 2px solid #E5E5E5;
@@ -60,9 +60,56 @@ a:hover {
 
   main .cShowDesc {
     display: flex;
-    padding-left: 150px;
-    padding-right: 150px;
-    width: max-content;
-    margin-right: auto;
-    margin-left: auto;
+    margin-left: 50px;
+ 
 }
+
+.cSubDesc h2{
+    font-size: 42px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #152C5B;
+}
+
+.cSubDesc p{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:50;
+    line-height: 170%;
+    color: #B0B0B0;
+}
+
+.cSubDesc button{
+    border: none;
+    background-color: #3252DF;
+    color: #ffffff;
+    padding-left: 28px;
+    padding-right:28px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
+    border-radius: 4px;
+}
+
+.listIcon{
+    position: absolute;
+    display: flex;
+    margin-top: 82px;
+    left: 150;
+}
+
+.listIcon div {
+    padding-left: 150;
+    margin-right: 30px;
+}
+
+.imgPlace{
+margin-top: 69px;
+margin-left: 150px;
+margin-right: 50px;
+width: 559px;
+height: 450px;
+
+}
+
+
